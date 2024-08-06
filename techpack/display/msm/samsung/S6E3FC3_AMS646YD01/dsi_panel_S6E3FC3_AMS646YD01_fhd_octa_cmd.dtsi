@@ -320,6 +320,34 @@
 		 * candela to index mappings
 		 * **************************************************************
 		 */
+		samsung,fod-dim-lut = <
+                /* brightness, alpha */
+                	    0     0xFF
+                	    1     0xEC
+                	    2     0xE6
+                	    3     0xE0
+                	    4     0xDC
+                	    6     0xD5
+                	    10     0xCA
+                	    20     0xB7
+                	    21     0xB5
+                	    30     0xA8
+                	    42     0x9A
+                	    63     0x85
+                	    84     0x74
+                	    105     0x65
+                	    126     0x58
+                	    147     0x4C
+                	    168     0x40
+                	    189     0x36
+                	    210     0x2C
+                	    231     0x23
+                	    252     0x1A
+                	    273     0x11
+                	    294     0x9
+                	    315     0x1
+		>;
+
 		samsung,candela_map_table_revA = < /* THIS TABLE USED FOR DIMMING */
 		/* <idx> <from> <till> <gm2_wrdisbv> <cd> */
 			0	0	0	2	2
