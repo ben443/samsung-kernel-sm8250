@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Wayne_KenrlSU_Google",
-      "repo": "https://github.com/Diva-Room/Miku_kernel_xiaomi_wayne",
-      "branch": "TDA",
-      "device": "wayne",
-      "defconfig": "vendor/wayne_defconfig"
+      "name": "r8q-lineage",
+      "repo": "https://github.com/ben443/samsung-kernel-sm8250",
+      "branch": "lineage-21.0",
+      "device": "r8q",
+      "defconfig": "vendor/sm8250-mainline-defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
