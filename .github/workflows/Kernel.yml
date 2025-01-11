@@ -18,7 +18,7 @@ jobs:
           kernel-url: https://github.com/ben443/samsung-kernel-sm8250
           #kernel-dir: msm-4.19
           kernel-branch: lineage-21
-          config: vendor/lineage_r8q_defconfig
+          config: lineage_r8q_defconfig
           arch: arm64
           aosp-gcc: true
           aosp-clang: true
@@ -27,5 +27,5 @@ jobs:
           android-version: 12
           aosp-clang-version: r383902
           disable-lto: true
-          anykernel3: true
-          nethunter: true
+          anykernel3: false
+          nethunter: false
